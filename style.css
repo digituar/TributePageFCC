@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+@import url(https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet);
+
+html, body {
+    font-family: Dosis, Open Sans, Arial;
+    background-color: #000000;
+    color: white;
+    margin: 0;
+}
+
+#title {
+    font-size: 64px!important;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    font-style: bold;
+}
+
+/* THE RIGHT DIV  */
+.wrapper { 
+  border : 2px solid #000; 
+  overflow:hidden; 
+}
+
+/*  THE LEFT DIV  */
+.wrapper div {
+   min-height: 150px;
+   padding: 0px;
+   height: auto;
+}
+
+#img-left {
+    position: fixed; 
+    width: 25%;
+    height: 100%;
+}
+
+#img-div-left {   
+  float: left; 
+  margin-right:20px;
+  width: 25%;
+}
+
+#cumhuriyet {
+  top: 10%;
+}
+
+#right { 
+  overflow:hidden;
+  margin:10px;
+  border:2px #ccc;
+  border-radius:5px;
+  text-align: center;
+}
+
+
+li {
+  list-style-type: none;
+  border-top: 1px solid #665544;  
+  width: 100%;
+  padding: 10px 0px 10px 10px;
+  text-align: left;
+}
+ul {
+  border: 10.35px;
+  border-color: white;
+  width: 100%;  
+}
+.year {
+  font-weight: bold;
+  font-size: 1.2em;
+  float: left;
+  margin: 0 15px 10px 10px;
+  font-family: "Dosis", serif;
+}
+
+.chronology {
+  padding: 10%;
+}
+
+footer {
+  text-align:center; 
+  margin-bottom: 2%;       
+  width: 100%;
+  bottom: 0;
+}
+
+a {
+  color: white;
+}
+
+.figure figcaption {
+  margin: 1%;
+}
+
+.figure img {
+  border-radius:5px;
+}
+
+blockquote {
+  padding: 5%;
+  text-align: left;
+}
+
+.atatuerk {
+  margin: 50px 155px 80px 155px;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+#image {
+  width: 100%;
+  height: auto;
+  max-width: 825px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
